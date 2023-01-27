@@ -23,11 +23,12 @@ End the program.
 To write a program for copying the contents from one file to another file.
 Developed by: NITEESH.M
 RegisterNumber: 22008756
-
-with open("git.txt","r") as f1:
-    with open("MyFile.txt","a") as f2:
-        for line in f1:
-            f2.write(line)
+f1=open("sample1.txt","r")
+f2=open("sample2.txt","a")
+for line in f1:
+    f2.write(line)
+f1.close()
+f2.close()
 
 ````
 
