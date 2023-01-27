@@ -32,7 +32,8 @@ with open("git.txt","r") as f1:
 ````
 
 ### OUTPUT:
-![eig](copy.png)
+![eig](copy1.png)
+![eig](copy2.png)
 
 ## RESULT:
 Thus the program is written to copy the contents from one file to another file.
